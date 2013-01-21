@@ -1,2 +1,3 @@
 2013-01-21 Florian Mast <fm@cabag.ch>
 * first version for the TYPO3 community
+* first local change, for testin svn commit
