@@ -1,0 +1,14 @@
+plugin.tx_overlaybox {
+	view {
+		# cat=plugin.tx_overlaybox/file; type=string; label=Path to template root (FE)
+		templateRootPath = EXT:overlaybox/Resources/Private/Templates/
+		# cat=plugin.tx_overlaybox/file; type=string; label=Path to template partials (FE)
+		partialRootPath = EXT:overlaybox/Resources/Private/Partials/
+		# cat=plugin.tx_overlaybox/file; type=string; label=Path to template layouts (FE)
+		layoutRootPath = EXT:overlaybox/Resources/Private/Layouts/
+	}
+	persistence {
+		# cat=plugin.tx_overlaybox//a; type=int+; label=Default storage PID
+		storagePid = 
+	}
+}

@@ -1,0 +1,127 @@
+<T3DataStructure>
+    <meta type="array">
+        <langChildren type="integer">1</langChildren>
+        <langDisable type="integer">1</langDisable>
+    </meta>
+    <sheets>
+        <sDEF>
+            <ROOT>
+                <TCEforms>
+                    <sheetTitle>Settings</sheetTitle>
+                </TCEforms>	
+                <type>array</type>
+                <el>
+                  <settings.title>
+                        <TCEforms>
+                            <label>Titel</label>
+                            <config>
+                                <type>input</type>
+                            </config>		
+                        </TCEforms>                                                                       
+                    </settings.title>    
+                    <settings.text>
+                        <TCEforms>
+                           <label>1. Textfeld</label>
+                           <config>
+                           	<type>text</type>
+                           	<cols>48</cols>
+                        	<rows>5</rows>
+                        	<wizards>
+								<_PADDING>4</_PADDING>
+								<_VALIGN>middle</_VALIGN>
+								<RTE>
+									<notNewRecords>1</notNewRecords>
+									<RTEonly>1</RTEonly>
+									<type>script</type>
+									<title>LLL:EXT:cms/locallang_ttc.xml:bodytext.W.RTE</title>
+									<icon>wizard_rte2.gif</icon>
+									<script>wizard_rte.php</script>
+								</RTE>
+                        	</wizards>
+                        </config>
+                        <defaultExtras>richtext[bold|italic|underline|lefttoright|righttoleft|left|center|right|orderedlist|unorderedlist| insertcharacter|link|image|findreplace|removeformat|copy|cut|paste|undo|redo|toggleborders|chMode]:rte_transform[mode=ts]</defaultExtras>
+                        </TCEforms>                                                                       
+                    </settings.text>
+                    <settings.linkvalue1>
+                        <TCEforms>
+                            <label>Linktext ja</label>
+                            <config>
+                                <type>input</type>
+                            </config>		
+                        </TCEforms>                                                                       
+                    </settings.linkvalue1> 
+                    <settings.link1>
+						  <TCEforms>
+							<label>Linkziel (externe URL)</label>
+							<config>
+							  <type>input</type>
+							  <checkbox></checkbox>
+							  <eval>trim</eval>
+							  <size>30</size>
+							  <wizards type="array">
+								<_PADDING type="integer">2</_PADDING>
+								<link type="array">
+								  <type>popup</type>
+								  <title>Link</title>
+								  <icon>link_popup.gif</icon>
+								  <script>browse_links.php?mode=wizard</script>
+								  <JSopenParams>height=300,width=500,status=0,menubar=0,scrollbars=1</JSopenParams>
+								</link>
+							  </wizards>								
+							</config>
+						  </TCEforms>
+					</settings.link1> 
+					<settings.linkvalue2>
+                        <TCEforms>
+                            <label>Linktext später</label>
+                            <config>
+                                <type>input</type>
+                            </config>		
+                        </TCEforms>                                                                       
+                    </settings.linkvalue2> 
+                    <settings.durationNotShow>
+                        <TCEforms>
+                            <label>Zeitdauer in Sekunden, bis das Overlay erneut angezeigt wird</label>
+                            <config>
+                                <type>input</type>
+                            </config>		
+                        </TCEforms>                                                                       
+                    </settings.durationNotShow> 
+                    <settings.linkvalue3>
+                        <TCEforms>
+                            <label>Linktext nein</label>
+                            <config>
+                                <type>input</type>
+                            </config>		
+                        </TCEforms>                                                                       
+                    </settings.linkvalue3> 
+                     <settings.text2>
+                        <TCEforms>
+                           <label>2. Textfeld</label>
+                           <config>
+                           	<type>text</type>
+                           	<cols>48</cols>
+                        	<rows>5</rows>
+                        	<wizards>
+								<_PADDING>4</_PADDING>
+								<_VALIGN>middle</_VALIGN>
+								<RTE>
+									<notNewRecords>1</notNewRecords>
+									<RTEonly>1</RTEonly>
+									<type>script</type>
+									<title>LLL:EXT:cms/locallang_ttc.xml:bodytext.W.RTE</title>
+									<icon>wizard_rte2.gif</icon>
+									<script>wizard_rte.php</script>
+								</RTE>
+                        	</wizards>
+                        </config>
+                        <defaultExtras>richtext[bold|italic|underline|lefttoright|righttoleft|left|center|right|orderedlist|unorderedlist| insertcharacter|link|image|findreplace|removeformat|copy|cut|paste|undo|redo|toggleborders|chMode]:rte_transform[mode=ts]</defaultExtras>
+                        </TCEforms>                                                                       
+                    </settings.text2>
+
+
+                </el>
+            </ROOT>
+        </sDEF>
+    </sheets>
+</T3DataStructure>

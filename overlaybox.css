@@ -1,0 +1,108 @@
+
+/*----------- overlay box plugin ---------------*/
+
+#tx-overlaybox {
+	color: #0082C8;
+	background-color: #ffffff;
+	padding: 15px;
+	font-family: arial, sans-serif;
+	width: 330px;
+	height: 290px;
+	border: 1px solid #b5b5b5;
+	position: absolute;
+	top: 210px;
+	left: 70px;
+	z-index: 300;
+	display: none;
+}
+
+#tx-overlaybox h2 {
+	margin-top: 0;
+	font-size: 18px;
+	font-weight: bold;
+	color: #0082C8;
+	margin-bottom: px;
+
+}
+
+#tx-overlaybox h4 {
+	margin-top: 0;
+	font-size: 14px;
+	color: #0082C8;
+}
+
+.ctArea #tx-overlaybox .rteArea-1 p {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#tx-overlaybox .rteArea-1 {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#tx-overlaybox ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.ctArea #tx-overlaybox ul li {
+	background-image: none;
+	padding-left: 0;
+}
+
+#tx-overlaybox ul li a {
+	color: #0082C8;
+	font-size: 12px;
+	line-height: 24px;
+}
+
+
+#tx-overlaybox-showLaterTimeoutInSeconds{
+	display: none;
+}
+
+#tx-overlaybox .rteArea-2 {
+	margin-top: 20px;
+}
+
+#tx-overlaybox .rteArea-2 h3 {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#tx-overlaybox .rteArea-2 p {
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#tx-overlaybox img {
+	float: left;
+	padding-right: 20px;
+}
+
+#tx-overlaybox .closeBox {
+	border-bottom: 1px solid #b5b5b5;
+	border-left: 1px solid #b5b5b5;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+}
+
+#tx-overlaybox .closeBox a,
+#tx-overlaybox .closeBox {
+	width: 40px;
+	height: 25px;
+	text-align: center;
+
+}
+
+#tx-overlaybox .closeBox a {
+	display: block;
+	color: #b5b5b5;
+	padding-top: 5px;
+	text-decoration: none;
+}
+

@@ -1,0 +1,35 @@
+<f:layout name="Default" />
+
+This Template is responsible for displaying a single view for a domain object
+
+If you modify this template, do not forget to change the overwrite settings
+in /Configuration/ExtensionBuilder/settings.yaml:
+  Resources:
+    Private:
+      Templates:
+        Show.html: keep
+
+Otherwise your changes will be overwritten the next time you save the extension in the extension builder
+
+<f:section name="main">
+
+        <div id="tx-overlaybox">
+            <f:format.html><h2>{settings.title}</h2></f:format.html>            
+            <div class="rteArea-1">
+                <f:format.html>{settings.text}</f:format.html>            
+            </div>
+            <ul class="linkListe">
+                <li class="first"><f:format.html>&gt; &nbsp;<f:link.external uri="{settings.link1}" id="tx-overlaybox-show" target="_blank">{settings.linkvalue1}</f:link.external></f:format.html></li>
+                <li><f:format.html>&gt; &nbsp;<a href="#" class="second" id="tx-overlaybox-showlater">{settings.linkvalue2}</a></f:format.html></li>
+                <li class="last"><f:format.html>&gt; &nbsp;<a href="#" class="third" id="tx-overlaybox-dontshow">{settings.linkvalue3}</a></f:format.html></li>
+            </ul>
+            <div id="tx-overlaybox-showLaterTimeoutInSeconds">{settings.durationNotShow}</div>
+            <div class="rteArea-2">
+                <f:format.html>{settings.text2}</f:format.html>            
+            </div>
+            <div class="closeBox"><a href="#" class="fourth">x</a></div>
+        </div>
+<f:flashMessages />
+
+
+</f:section>
