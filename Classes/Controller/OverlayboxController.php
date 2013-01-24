@@ -46,14 +46,13 @@ class Tx_Overlaybox_Controller_OverlayboxController extends Tx_Extbase_MVC_Contr
 	 * @param Tx_Overlaybox_Domain_Repository_OverlayboxRepository $overlayboxRepository
 	 * @return void
 	 */
-	public function injectOverlayboxRepository(Tx_Overlaybox_Domain_Repository_OverlayboxRepository $overlayboxRepository) {
+	 public function injectOverlayboxRepository(Tx_Overlaybox_Domain_Repository_OverlayboxRepository $overlayboxRepository) {
 		$this->overlayboxRepository = $overlayboxRepository;
 	}
 
 	/**
 	 * action show
 	 *
-	 * @param $overlaybox
 	 * @return void
 	 */
 	public function showAction() {
